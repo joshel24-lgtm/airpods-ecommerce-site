@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AirWave | AirPods & Accessoires</title>
+    <meta
+      name="description"
+      content="Site e-commerce ultra coloré pour AirPods, accessoires et promos."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="logo-wrap">
+          <div class="logo-mark">A</div>
+          <span>AirWave</span>
+        </div>
+
+        <nav class="nav">
+          <a href="#accueil">Accueil</a>
+          <a href="#produits">Produits</a>
+          <a href="#avantages">Pourquoi nous ?</a>
+          <a href="#avis">Avis</a>
+          <a href="#newsletter">Newsletter</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-button" aria-label="Recherche">⌕</button>
+          <button class="icon-button cart-button" aria-label="Panier">
+            🛒
+            <span class="cart-count" id="cartCount">0</span>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="accueil">
+          <div class="hero-copy">
+            <span class="tag">Nouvelle collection 2026</span>
+            <h1>Le son qui te suit partout.</h1>
+            <p>
+              Découvre des AirPods ultra performants, un design premium et des
+              accessoires qui rendent chaque moment plus vivant.
+            </p>
+            <div class="hero-actions">
+              <a href="#produits" class="btn btn-primary">Acheter maintenant</a>
+              <a href="#avantages" class="btn btn-secondary">Voir plus</a>
+            </div>
+
+            <div class="hero-metrics">
+              <div>
+                <strong>4.9/5</strong>
+                <span>Note clients</span>
+              </div>
+              <div>
+                <strong>+25k</strong>
+                <span>Livraisons</span>
+              </div>
+              <div>
+                <strong>24h</strong>
+                <span>Expédition</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="product-glow"></div>
+            <div class="airpod-card main-airpod">
+              <div class="earbud earbud-left"></div>
+              <div class="earbud earbud-right"></div>
+            </div>
+            <div class="mini-card mini-card-one">
+              <span>Écoute 30h</span>
+              <strong>+ 2h en 10 min</strong>
+            </div>
+            <div class="mini-card mini-card-two">
+              <span>Offre</span>
+              <strong>-30% sur les étuis</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="promo-strip">
+          <div>Livraison gratuite à partir de 79€</div>
+          <div>Garantie 2 ans</div>
+          <div>Retours simples</div>
+        </section>
+
+        <section class="products" id="produits">
+          <div class="section-heading">
+            <span class="eyebrow">Nos best-sellers</span>
+            <h2>Choisis ton son préféré</h2>
+          </div>
+
+          <div class="product-grid" id="productGrid"></div>
+        </section>
+
+        <section class="features" id="avantages">
+          <div class="section-heading center">
+            <span class="eyebrow">Pourquoi AirWave ?</span>
+            <h2>Une expérience sonore premium</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon">🎧</div>
+              <h3>Audio immersif</h3>
+              <p>Profitez d’un son clair, profond et équilibré avec un rendu studio.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon">🔋</div>
+              <h3>Autonomie maximale</h3>
+              <p>Jusqu’à 30 heures d’écoute et une recharge ultra rapide.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon">⚡</div>
+              <h3>Bluetooth 5.4</h3>
+              <p>Connexion instantanée, stabilité exceptionnelle et faible latence.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon">💧</div>
+              <h3>Résistant au quotidien</h3>
+              <p>Conception pensée pour la ville, les sportifs et les déplacements.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="banner-offer">
+          <div>
+            <span class="eyebrow light">Offre du moment</span>
+            <h2>Profitez de -30% sur les accessoires</h2>
+          </div>
+          <a href="#produits" class="btn btn-primary">Voir l’offre</a>
+        </section>
+
+        <section class="testimonials" id="avis">
+          <div class="section-heading center">
+            <span class="eyebrow">Ils nous font confiance</span>
+            <h2>Des avis qui parlent</h2>
+          </div>
+
+          <div class="testimonial-grid">
+            <article class="testimonial-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “Le son est incroyable, le design est premium et la batterie tient vraiment
+                toute la journée.”
+              </p>
+              <h4>Julie M.</h4>
+            </article>
+            <article class="testimonial-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “L’ajout de l’étui sans fil a transformé mon quotidien. Très facile à utiliser.”
+              </p>
+              <h4>Lucas T.</h4>
+            </article>
+            <article class="testimonial-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “Je les ai pris pour le travail et les trajets. Le confort est top et le son est clair.”
+              </p>
+              <h4>Sonia R.</h4>
+            </article>
+          </div>
+        </section>
+
+        <section class="newsletter" id="newsletter">
+          <div class="newsletter-copy">
+            <span class="eyebrow">Newsletter</span>
+            <h2>Recevez nos promos exclusives</h2>
+            <p>Inscrivez-vous pour recevoir nos meilleures offres et nouveautés.</p>
+          </div>
+
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" id="newsletterEmail" placeholder="Votre email" required />
+            <button type="submit" class="btn btn-primary">S’inscrire</button>
+          </form>
+        </section>
+      </main>
+
+      <aside class="cart-panel" id="cartPanel" aria-live="polite">
+        <div class="cart-header">
+          <h3>Mon panier</h3>
+          <button class="close-cart" id="closeCart" aria-label="Fermer le panier">✕</button>
+        </div>
+
+        <div id="cartItems" class="cart-items"></div>
+
+        <div class="cart-summary">
+          <div>
+            <span>Total</span>
+            <strong id="cartTotal">0 €</strong>
+          </div>
+          <button class="btn btn-primary full-width">Commander</button>
+        </div>
+      </aside>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
